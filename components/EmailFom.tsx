@@ -14,6 +14,7 @@ export default function EmailForm() {
     e.preventDefault();
 
     try {
+      console.log("in email form. Env variables: ", process.env.LIST_ID, process.env.EMAILOCTOPUS_KEY)
       const response = await fetch("/api/submit", {
         method: "POST",
         headers: {
