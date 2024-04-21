@@ -14,8 +14,6 @@ export default function EmailForm() {
     e.preventDefault();
 
     try {
-      console.log("in email form. Env variables: ", process.env.LIST_ID, process.env.EMAILOCTOPUS_KEY)
-      console.log("NEXT JS PREFIX: ", process.env.NEXT_PUBLIC_LIST_ID, process.env.NEXT_PUBLIC_EMAILOCTOPUS_KEY)
       const response = await fetch("/api/submit", {
         method: "POST",
         headers: {
