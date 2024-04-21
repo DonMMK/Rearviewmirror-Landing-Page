@@ -2,16 +2,16 @@ export async function POST(request: Request) {
   const { email } = await request.json();
 
   try {
-    console.log("Env variables: ", process.env.LIST_ID, process.env.EMAILOCTOPUS_KEY)
+    console.log("Env variables: ", process.env.NEXT_PUBLIC_LIST_ID, process.env.NEXT_PUBLIC_EMAILOCTOPUS_KEY)
     const response = await fetch(
-      `https://emailoctopus.com/api/1.6/lists/${process.env.LIST_ID}/contacts`,
+      `https://emailoctopus.com/api/1.6/lists/${process.env.NEXT_PUBLIC_LIST_ID}/contacts`,
       {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          api_key: `${process.env.EMAILOCTOPUS_KEY}`,
+          api_key: `${process.env.NEXT_PUBLIC_EMAILOCTOPUS_KEY}`,
           email_address: email,
         }),
       }
