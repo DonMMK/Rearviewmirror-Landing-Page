@@ -27,7 +27,7 @@ export async function POST(request: Request) {
       });
     }
   } catch (error: any) {
-    console.error("Error during fetch:", error);
+    console.error("Error during fetch: ", error);
     return new Response("Internal server error: " + error.message, { status: 500 });
   }
 }
