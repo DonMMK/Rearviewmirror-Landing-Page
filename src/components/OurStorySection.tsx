@@ -43,12 +43,12 @@ export const OurStorySection: React.FC = () => {
             >
               <div className="inline-block rounded-full overflow-hidden mb-4">
                 <img 
-                  src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=300" 
+                  src="https://public-stored-items.s3.ap-southeast-2.amazonaws.com/don_profile.JPG" 
                   alt="Founder" 
                   className="w-24 h-24 object-cover"
                 />
               </div>
-              <p className="text-primary-dark font-semibold">Michael Chen</p>
+              <p className="text-primary-dark font-semibold">Don Kaluarachchi</p>
               <p className="text-primary-light">Founder</p>
             </motion.div>
           </AnimatedElement>

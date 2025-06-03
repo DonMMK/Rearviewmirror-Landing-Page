@@ -4,7 +4,7 @@ export const AppStoreButtons: React.FC<{className?: string}> = ({ className = ''
   return (
     <div className={`flex flex-wrap gap-4 ${className}`}>
       <a 
-        href="#" 
+        href="https://apps.apple.com/us/app/rearviewmirror-couples-app/id6584517029" 
         className="flex items-center justify-center bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors"
         aria-label="Download on App Store"
       >
@@ -19,16 +19,13 @@ export const AppStoreButtons: React.FC<{className?: string}> = ({ className = ''
         </div>
       </a>
       <a 
-        href="#" 
+        href="https://play.google.com/store/apps/details?id=com.donmmk.Rearviewmirror&fbclid=PAZXh0bgNhZW0CMTEAAad4H8Ax4RJXvu3beyZclX64r58pO9i4-d73fzO1P3oSZLRYHD_QNFcjNwjHsw_aem_HtuyDr7l79EnGapOLasmuA" 
         className="flex items-center justify-center bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors"
         aria-label="Get it on Google Play"
       >
         <span className="mr-2">
-          <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M1.90661 0.29756L11.869 10.1999L1.90661 20.1022C1.51249 19.8362 1.3 19.3616 1.3 18.7789V1.62098C1.3 1.03823 1.51249 0.56367 1.90661 0.29756Z" fill="white"/>
-            <path d="M13.3429 8.7262L3.27617 1.54128L3.27305 1.53899C3.76091 0.95625 4.50703 0.61846 5.38665 0.61846L15.8723 0.61846C16.7519 0.61846 17.498 0.95625 17.9859 1.53899L17.9828 1.54128L13.3429 8.7262Z" fill="white"/>
-            <path d="M17.986 18.8618C17.4981 19.4445 16.7512 19.7823 15.8716 19.7823H5.38593C4.5064 19.7823 3.76027 19.4445 3.27241 18.8618C3.27241 18.8618 3.27553 18.8595 3.27553 18.8595L13.3423 11.6746L17.9821 18.8595C17.9829 18.8603 17.986 18.8618 17.986 18.8618Z" fill="white"/>
-            <path d="M13.3436 8.726L17.9834 1.5411C18.1827 1.69246 18.3513 1.88218 18.4851 2.10849L18.4882 2.11313C18.7088 2.49768 18.8426 2.99019 18.8426 3.56606V16.8346C18.8426 17.4105 18.7088 17.903 18.4882 18.2875C18.3544 18.5139 18.185 18.7036 17.9857 18.855L13.3436 11.6747V8.726Z" fill="white"/>
+          <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.5 25.34L12.5 13.34L0.5 1.34003V25.34ZM13.5 13.34L23.5 3.34003C22.84 2.94003 22.06 2.71003 21.2 2.71003L3.8 2.70003C2.94 2.70003 2.16 2.93003 1.5 3.34003L11.5 13.34H13.5ZM1.5 3.34003C0.57 4.00003 0 5.08003 0 6.34003V20.34C0 21.6 0.57 22.68 1.5 23.34L11.5 13.34L1.5 3.34003ZM13.5 13.34L23.5 23.34C22.84 23.74 22.06 23.97 21.2 23.97L3.8 23.97C2.94 23.97 2.16 23.74 1.5 23.34L11.5 13.34H13.5Z" fill="white"/>
           </svg>
         </span>
         <div className="flex flex-col items-start">

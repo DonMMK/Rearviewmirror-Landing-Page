@@ -42,7 +42,7 @@ export const Footer: React.FC = () => {
               <a href="#" className="text-primary-100 hover:text-white transition-colors">
                 <Facebook className="w-6 h-6" />
               </a>
-              <a href="#" className="text-primary-100 hover:text-white transition-colors">
+              <a href="https://www.instagram.com/rearviewmirrorapp" className="text-primary-100 hover:text-white transition-colors">
                 <Instagram className="w-6 h-6" />
               </a>
               <a href="#" className="text-primary-100 hover:text-white transition-colors">
@@ -52,8 +52,8 @@ export const Footer: React.FC = () => {
             <div className="mt-6">
               <h5 className="font-medium text-white mb-2">Download</h5>
               <ul className="space-y-2">
-                <li><a href="#" className="text-primary-100 hover:text-white transition-colors">App Store</a></li>
-                <li><a href="#" className="text-primary-100 hover:text-white transition-colors">Google Play</a></li>
+                <li><a href="https://apps.apple.com/us/app/rearviewmirror-couples-app/id6584517029" className="text-primary-100 hover:text-white transition-colors">App Store</a></li>
+                <li><a href="https://play.google.com/store/apps/details?id=com.donmmk.Rearviewmirror&fbclid=PAZXh0bgNhZW0CMTEAAad4H8Ax4RJXvu3beyZclX64r58pO9i4-d73fzO1P3oSZLRYHD_QNFcjNwjHsw_aem_HtuyDr7l79EnGapOLasmuA" className="text-primary-100 hover:text-white transition-colors">Google Play</a></li>
               </ul>
             </div>
           </div>

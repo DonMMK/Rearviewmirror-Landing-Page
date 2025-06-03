@@ -6,22 +6,22 @@ export const valuePropData: ValueProp[] = [
   {
     title: 'Rearview',
     description: 'Reflect on memories and relationship milestones.',
-    icon: <Car className="w-12 h-12 text-primary-500" />,
+    icon: <Car className="w-12 h-12 text-primary-300" />,
   },
   {
     title: 'Windshield',
     description: 'Plan your future-shared goals and dreamy date nights.',
-    icon: <Map className="w-12 h-12 text-primary-500" />,
+    icon: <Map className="w-12 h-12 text-primary-300" />,
   },
   {
     title: 'Maintenance',
     description: 'Communicate better. Resolve conflict. Grow together.',
-    icon: <MessageCircle className="w-12 h-12 text-primary-500" />,
+    icon: <MessageCircle className="w-12 h-12 text-primary-300" />,
   },
   {
     title: 'Community',
     description: 'Learn from and connect with other like-minded couples.',
-    icon: <Users className="w-12 h-12 text-primary-500" />,
+    icon: <Users className="w-12 h-12 text-primary-300" />,
   },
 ];
 
@@ -29,27 +29,27 @@ export const featureData: Feature[] = [
   {
     title: 'Guided Conversations',
     description: 'Step-by-step frameworks for resolving conflicts and deepening your connection.',
-    icon: <MessageCircle className="w-10 h-10 text-primary-500" />,
+    icon: <MessageCircle className="w-10 h-10 text-primary-300" />,
   },
   {
     title: 'Date Night Planner',
     description: 'Discover new ideas and plan memorable experiences together.',
-    icon: <Calendar className="w-10 h-10 text-primary-500" />,
+    icon: <Calendar className="w-10 h-10 text-primary-300" />,
   },
   {
     title: 'Gift Ideas Tracker',
     description: 'Never forget a special occasion or gift idea again.',
-    icon: <Gift className="w-10 h-10 text-primary-500" />,
+    icon: <Gift className="w-10 h-10 text-primary-300" />,
   },
   {
     title: 'Partner Journal',
     description: 'Record your thoughts and feelings in a private shared space.',
-    icon: <Heart className="w-10 h-10 text-primary-500" />,
+    icon: <Heart className="w-10 h-10 text-primary-300" />,
   },
-    {
+  {
     title: 'Community Engagement',
     description: 'Share stories and recommendations with other couples',
-    icon: <Heart className="w-10 h-10 text-primary-500" />,
+    icon: <Users className="w-10 h-10 text-primary-300" />,
   },
 ];
 
@@ -67,7 +67,7 @@ export const testimonialData: Testimonial[] = [
   {
     quote: 'Every long distance couple needs this!',
     authors: 'Priya & Nate',
-    rating: 4.5,
+    rating: 4,
   },
 ];
 

@@ -14,7 +14,7 @@ export const TestimonialsSection: React.FC = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex items-center justify-center mb-8">
-          <Users className="w-12 h-12 text-primary-500 mr-4" />
+          <Users className="w-12 h-12 text-primary-300 mr-4" />
           <h2 className="text-3xl md:text-4xl font-bold text-primary-700">Community</h2>
         </div>
         
@@ -36,20 +36,13 @@ export const TestimonialsSection: React.FC = () => {
                 <div className="absolute top-3 right-3 text-5xl text-primary-100">"</div>
                 
                 <div className="flex mb-4">
-                  {[1, 2, 3, 4, 5].map((star) => (
+                  {[...Array(5)].map((_, i) => (
                     <Star 
-                      key={star} 
+                      key={i} 
                       className="w-5 h-5 text-yellow-400"
-                      fill={star <= Math.floor(testimonial.rating || 5) ? 'currentColor' : 'none'}
+                      fill={i < Math.floor(testimonial.rating || 5) ? 'currentColor' : 'none'}
                     />
                   ))}
-                  {testimonial.rating && testimonial.rating % 1 !== 0 && (
-                    <Star 
-                      className="w-5 h-5 text-yellow-400" 
-                      fill="currentColor"
-                      strokeWidth={0.5}
-                    />
-                  )}
                 </div>
                 <p className="text-gray-700 mb-4 italic relative z-10">"{testimonial.quote}"</p>
                 <p className="text-primary-600 font-semibold">— {testimonial.authors}</p>
@@ -77,11 +70,11 @@ export const TestimonialsSection: React.FC = () => {
           <AnimatedElement delay={0.2}>
             <div className="flex items-center p-4 bg-white rounded-lg shadow-sm">
               <div className="flex">
-                {[1, 2, 3, 4, 5].map((star, index) => (
+                {[1, 2, 3, 4, 5].map((star) => (
                   <Star 
-                    key={index} 
+                    key={star} 
                     className="w-6 h-6 text-yellow-400"
-                    fill={index < 4.8 ? 'currentColor' : 'currentColor'}
+                    fill="currentColor"
                   />
                 ))}
               </div>
