@@ -86,6 +86,6 @@ export const faqData: FAQ[] = [
   },
   {
     question: 'How much does the app cost?',
-    answer: 'We offer a free version with basic features, and a premium subscription that unlocks all features for $14.99/month or $59.99/year.',
+    answer: 'We offer a free version with basic features, and a premium subscription that unlocks all features for $14.99/month or $59.99/year (AUD).',
   },
 ];
